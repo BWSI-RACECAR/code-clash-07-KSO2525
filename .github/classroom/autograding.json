@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "python3 anagram.py",
+      "input": "\"anagram\" \r\n\"maranag\"",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 anagram.py",
+      "input": "tar\r\ncar",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "python3 anagram.py",
+      "input": "sad\r\ndsa",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "python3 anagram.py",
+      "input": "abcdefghijklmnopqrstuvwxyz\r\nstuvwxyzjklmnopqrabcdefghi",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "python3 anagram.py",
+      "input": "159357\r\n357159",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test6",
+      "setup": "",
+      "run": "python3 anagram.py",
+      "input": "bye\r\nhi",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test7",
+      "setup": "",
+      "run": "python3 anagram.py",
+      "input": "\"\"\r\n\"\"",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test8",
+      "setup": "",
+      "run": "python3 anagram.py",
+      "input": "_a_\r\n__a",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test9",
+      "setup": "",
+      "run": "python3 anagram.py",
+      "input": "@?!$%\r\n%$?!@",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test10",
+      "setup": "",
+      "run": "python3 anagram.py",
+      "input": "fkadhkjfhlakjhdlf\r\nnlvalksjdflkja;ad",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
