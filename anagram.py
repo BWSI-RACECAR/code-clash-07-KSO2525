@@ -35,7 +35,7 @@ class Solution:
         for i in a:
             list1.append(i)
         for i in b:
-            list2.append(b)
+            list2.append(i)
         for x in list1:
             if x in list2:
                 list2.remove(x)
