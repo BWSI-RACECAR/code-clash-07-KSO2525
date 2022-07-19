@@ -41,6 +41,11 @@ class Solution:
                 list2.remove(x)
         if len(list2) == 0:
             return True
+        else:
+            for i in list2:
+                if i not in list1:
+                    return False
+        return True
             
 
 def main():
